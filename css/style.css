@@ -46,9 +46,13 @@ background-position: right;
 margin-top: -200px;
 }
 .experience-area{
-    margin-top: -2dd00px;
+    background-image: url(../images/exp-bg.png);
+    margin-top: -150px;
+    background-position: left;
+    background-repeat: no-repeat;
 }
 .experience-area h2{
+
     text-align: center;
     font-size:40px;
     margin-bottom: 100px;
@@ -79,4 +83,12 @@ margin-top: -200px;
 }
 footer p{
     text-align: center;
+}
+
+.boss{
+    float: left;
+}
+
+.msm{
+    float: left;
 }
