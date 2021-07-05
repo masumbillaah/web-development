@@ -2,12 +2,12 @@ body{
       margin: 0;
      font-family: 'Montserrat', sans-serif;
 } 
-section{
-    height: 500px;
-    padding-bottom: 150px;
-    display: flex;
+.flexible-container{
+/* height: 500px; */
+padding-bottom: 100px;
+display: flex;
 } 
-.orange-color{
+.orange-highlight{
     color: orangered;
 }
 h1{
@@ -43,4 +43,39 @@ font-weight: 700;
 background-image: url(../images/dream-bg.png);
 background-repeat: no-repeat;
 background-position: right;
+margin-top: -200px;
+}
+.experience-area{
+    margin-top: -100px;
+}
+.experience-area h2{
+    text-align: center;
+    font-size:40px;
+    margin-bottom: 100px;
+}
+
+.experience-item{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* padding-left: 10px; */
+    /* padding: 2%; */
+    padding-left: 3%;
+    /* padding-right: 3%; */
+    box-shadow: 10px 10px 40px gray;
+}
+
+#full-stack{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#learner-web{
+    border-left: 6px solid;
+    border-image: linear-gradient(orangered,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
